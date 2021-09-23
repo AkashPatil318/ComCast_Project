@@ -3,20 +3,25 @@ package com.cast.ContactTest;
 import org.testng.annotations.Test;
 
 public class ContactTest {
-	@Test
+	@Test(groups="SmokeTest")
  public void createContactTest()
  {
 		System.out.println("execute createContactTest");
  }
-	@Test
+	@Test(groups="RegressionTest")
 	public void createContactWithOrgTest()
 	 {
 			System.out.println("execute createContactWithOrgTest");
 	 }
-	@Test
+	@Test(groups="RegressionTest")
 	public void deleteContactTest()
 	 {
 			System.out.println("execute deleteContactTest");
+	 }
+	@Test
+	public void UpdateContactTest()
+	 {
+			System.out.println("execute UpdateContactTest");
 	 }
 	
 }
