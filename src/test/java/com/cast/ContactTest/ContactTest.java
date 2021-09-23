@@ -10,7 +10,9 @@ public class ContactTest {
 		String BROWSER = System.getProperty("browser");
 		String ENV = System.getProperty("url");
 		
-		System.out.println("Browser======>" +BROWSER+"   ,URL===>"+ENV);
+		System.out.println("Browser======>" +BROWSER);
+		System.out.println("URL===>"+ENV);
+		
  }
 	@Test(groups="RegressionTest")
 	public void createContactWithOrgTest()
